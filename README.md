@@ -4,7 +4,7 @@ This is the implementation of the GE-FSG method in the paper "Learning Graph Rep
 # Installation
 1. Microsoft .NET Framework 4.0 (to run C# code to mine frequent subgraphs)
 2. gensim 3.4 (to run Doc2Vec model)
-3. networkx 2.1 (to read graphs in GraphML formart)
+3. networkx 2.1 (to read graphs in GraphML format)
 
 # How to run
 - Run python main.py to learn graph embeddings and classify graphs
