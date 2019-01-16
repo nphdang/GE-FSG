@@ -6,11 +6,11 @@ A graph consists of nodes and edges. Each graph has a label called graph label. 
 
 To apply machine learning tasks such as classification and clustering to graphs, we need to represent each graph as a feature vector since machine learning methods typically require vectors as their input. This task is challenging since graphs have no feature vectors by default.
 
-We propose GE-FSG which learns feature vectors (aka embeddings or representations) for graphs. GE-FSG a recently introduced neural document embedding mode with a tradition pattern mining technique. It has two main steps: (1) decompose each graph to a set of frequent subgraphs (FSGs) and (2) learn an embedding for each graph by predicting its belonging FSGs. In this end, graphs which contain similar FSGs will be mapped into nearby points on the vector space. 
+We propose GE-FSG which learns feature vectors (aka embeddings or representations) for graphs. GE-FSG combines a recently introduced neural document embedding model with a traditional pattern mining technique. It has two main steps: (1) decompose each graph into a set of frequent subgraphs (FSGs) and (2) learn an embedding for each graph by predicting its belonging FSGs. To this end, graphs which contain similar FSGs will be mapped to nearby points on the vector space. 
 
 ![GE-FSG: Main idea](https://github.com/nphdang/GE-FSG/blob/master/main_idea.jpg)
 
-## Graph visualization
+## Graph visualization demonstration
 Graph embeddings learnt by GE-FSG and other methods are visualized using t-SNE.
 
 ![Graph visualization](https://github.com/nphdang/GE-FSG/blob/master/graph_visualization.jpg)
@@ -21,7 +21,7 @@ Graph embeddings learnt by GE-FSG and other methods are visualized using t-SNE.
 3. networkx 2.1 (to read graphs in GraphML format)
 
 # How to run
-- Run python main.py to learn graph embeddings and classify graphs
+- Run python main.py to learn graph embeddings and classify graphs (note that you may need to change variables such as dataset, minimum support threshold, and embedding dimension in the code)
 - Run python .\utilities\convert_graphs\gen_graph_dgk.py to convert graph format used by Deep Graph Kernel to graph format used by GE-FSG
 - Run python .\utilities\convert_graphs\gen_graph_gk.py to convert graph format used by Graph Kernel Suite to graph format used by GE-FSG
 
