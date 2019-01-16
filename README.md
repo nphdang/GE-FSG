@@ -1,6 +1,16 @@
 # GE-FSG: Learning Graph Embeddings via Frequent Subgraphs
 This is the implementation of the GE-FSG method in the paper "Learning Graph Representation via Frequent Subgraphs", SDM 2018: https://epubs.siam.org/doi/10.1137/1.9781611975321.35
 
+# Introduction
+A graph consists of nodes and edges. Each graph has a label called graph label. Similarly, each node/edge can also has a label called node label/edge label. For example, a chemical compound is a graph whose nodes correspond to the atoms of the compound and edges correspond to chemical bonds.
+
+To apply machine learning tasks such as classification and clustering to graphs, we need to represent each graph as a feature vector since machine learning methods typically require vectors as their input. This task is challenging since graphs have no feature vectors by default.
+
+We propose GE-FSG which learns feature vectors (aka embeddings or representations) for graphs. GE-FSG a recently introduced neural document embedding mode with a tradition pattern mining technique. It has two main steps: (1) decompose each graph to a set of frequent subgraphs (FSGs) and (2) learn an embedding for each graph by predicting its belonging FSGs. In this end, graphs which contain similar FSGs will be mapped into nearby points on the vector space. 
+
+![GE-FSG: Main idea](https://github.com/nphdang/GE-FSG/blob/master/main_idea.jpg)
+![Graph visualization](https://github.com/nphdang/GE-FSG/blob/master/graph_visualization.jpg)
+
 # Installation
 1. Microsoft .NET Framework 4.0 (to run C# code to mine frequent subgraphs)
 2. gensim 3.4 (to run Doc2Vec model)
