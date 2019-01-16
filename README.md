@@ -29,6 +29,7 @@ Graph embeddings learnt by GE-FSG and other methods are visualized using t-SNE.
 - File fsg_miner.exe can be used as a standalone tool to discover frequent subgraphs
 - It runs fast since it is implemented in parallel
 - Its parameters are as follows:
+```
         -graphset <file>
         use graphs from <file> to mine FSGs
         -graphlabel <file>
@@ -39,6 +40,6 @@ Graph embeddings learnt by GE-FSG and other methods are visualized using t-SNE.
         save discovered FSGs to <file> (optional)
         -output <file>
         convert each graph to a set of FSGs and save it to <file> (optional)
-
+```
 # Reference
 Dang Nguyen, Wei Luo, Tu Dinh Nguyen, Svetha Venkatesh, Dinh Phung (2018). Learning Graph Representation via Frequent Subgraphs. SDM 2018, San Diego, USA. SIAM, 306-314
