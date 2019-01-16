@@ -9,6 +9,10 @@ To apply machine learning tasks such as classification and clustering to graphs,
 We propose GE-FSG which learns feature vectors (aka embeddings or representations) for graphs. GE-FSG a recently introduced neural document embedding mode with a tradition pattern mining technique. It has two main steps: (1) decompose each graph to a set of frequent subgraphs (FSGs) and (2) learn an embedding for each graph by predicting its belonging FSGs. In this end, graphs which contain similar FSGs will be mapped into nearby points on the vector space. 
 
 ![GE-FSG: Main idea](https://github.com/nphdang/GE-FSG/blob/master/main_idea.jpg)
+
+## Graph visualization
+Graph embeddings learnt by GE-FSG and other methods are visualized using t-SNE.
+
 ![Graph visualization](https://github.com/nphdang/GE-FSG/blob/master/graph_visualization.jpg)
 
 # Installation
