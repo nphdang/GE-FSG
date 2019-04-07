@@ -21,13 +21,14 @@ Graph embeddings learnt by GE-FSG and other methods are visualized using t-SNE.
 3. networkx 2.1 (to read graphs in GraphML format)
 
 # How to run
-- Run python main.py to learn graph embeddings and classify graphs (note that you may need to change variables such as dataset, minimum support threshold, and embedding dimension in the code)
-- Run python .\utilities\convert_graphs\gen_graph_dgk.py to convert graph format used by Deep Graph Kernel to graph format used by GE-FSG
-- Run python .\utilities\convert_graphs\gen_graph_gk.py to convert graph format used by Graph Kernel Suite to graph format used by GE-FSG
+- Run "python main.py" to learn graph embeddings and classify graphs (note that you may need to change variables such as dataset, minimum support threshold, and embedding dimension in the code)
+- Run "python .\utilities\convert_graphs\gen_graph_dgk.py" to convert graph format used by Deep Graph Kernel to graph format used by GE-FSG
+- Run "python .\utilities\convert_graphs\gen_graph_gk.py" to convert graph format used by Graph Kernel Suite to graph format used by GE-FSG
 
 # Tool to mine frequent subgraphs
-- File fsg_miner.exe can be used as a standalone tool to discover frequent subgraphs
+- File "fsg_miner.exe" can be used as a standalone tool to discover frequent subgraphs
 - It runs fast since it is implemented in parallel
+- Its source code is in "fsg_miner.zip"
 - Its parameters are as follows:
 ```
         -graphset <file>
