@@ -25,6 +25,9 @@ Graph embeddings learnt by GE-FSG and other methods are visualized using t-SNE.
 - Run "python .\utilities\convert_graphs\gen_graph_dgk.py" to convert graph format used by Deep Graph Kernel to graph format used by GE-FSG
 - Run "python .\utilities\convert_graphs\gen_graph_gk.py" to convert graph format used by Graph Kernel Suite to graph format used by GE-FSG
 
+# For Linux environment
+- Please use the implementation in folder "For_Linux"
+
 # Tool to mine frequent subgraphs
 - File "fsg_miner.exe" can be used as a standalone tool to discover frequent subgraphs
 - It runs fast since it is implemented in parallel
