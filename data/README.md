@@ -11,3 +11,6 @@ Each row in "xxx_label.txt" has the following format:
 ```
       <graph_label> <tab> <graph_id>
 ```
+
+# Graph dataset characteristics
+![Dataset Info](https://github.com/nphdang/GE-FSG/blob/master/data/datasets.jpg)
