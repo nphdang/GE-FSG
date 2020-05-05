@@ -13,4 +13,12 @@ Each row in "xxx_label.txt" has the following format:
 ```
 
 # Graph dataset characteristics
-![Dataset Info](https://github.com/nphdang/GE-FSG/blob/master/data/datasets.jpg)
+
+## Bio- and Chemo-informatics datasets
+![Bio- and Chemo-informatics data](https://github.com/nphdang/GE-FSG/blob/master/data/data_bio_chemo.jpg)
+
+## Social networks datasets
+![Social networks data](https://github.com/nphdang/GE-FSG/blob/master/data/data_social_network.jpg)
+
+## Text document datasets
+![Text document data](https://github.com/nphdang/GE-FSG/blob/master/data/data_text_doc.jpg)
